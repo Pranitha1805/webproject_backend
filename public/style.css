@@ -1,0 +1,109 @@
+:root {
+    --dB: #355070;
+    --lP: #FCD5CE;
+}
+
+img {
+    width: 130px;
+    height: 140px;
+    float: left;
+    padding: 0 350px 0 0;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    background-color: #FEC5BB;
+    text-align: justify;
+    display: inline-block;
+}
+
+.box {
+    border: 3px solid #b6b6ad;
+    /*padding: 4px;*/
+    background-color: #F8EDEB;
+    width: 100%;
+    margin: 10px;
+    /*display: grid;*/
+}
+
+.navbar {
+    display: inline-block;
+    /*border: 3px solid;*/
+    padding: 4px;
+    overflow: hidden;
+    background-color: var(--lP);
+}
+
+.navbar a {
+    float: inherit;
+    color: #e83283;
+    text-align: center;
+    padding: 33px 33px 150px 150px;
+    padding: 45px;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.navbar a:hover {
+    background-color: rgb(168, 166, 166);
+    color:black;
+}
+
+h1 {
+    font-size: 16px;
+    color: #3E4C5C;
+}
+
+h2 {
+    text-decoration: underline;
+    color: #e83283;
+}
+
+h3{
+    color: #ff0a54;
+    text-decoration: underline;
+}
+
+p{
+    color: #3E4C5C;
+    font-size: 18px;
+}
+
+ul{
+    font-size: 18px;
+}
+
+.fa-github {
+    color: var(--dB);
+    padding: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fa-facebook {
+    color: var(--dB);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fa-instagram {
+    color: var(--dB);
+    padding: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .header{
+        display: block;
+    }
+    .navbar a {
+        float: none;
+        display: block;
+    }
+    .box{
+        background-color: var(--lP);
+    }
+}
